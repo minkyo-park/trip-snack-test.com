@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://trip.snack-test.com/sitemap.xml
+
+# Disallow admin or private paths (none for static site)
+# Crawl-delay: 1
