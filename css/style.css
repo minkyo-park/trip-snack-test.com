@@ -580,18 +580,22 @@ li { margin-bottom: 0.4rem; }
 
 /* ---- Breadcrumb ---- */
 .breadcrumb {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: 8px;
-  font-size: 0.85rem;
-  color: var(--trip-gray);
-  padding: 16px 0;
+  gap: 6px;
+  font-size: 0.8rem;
+  color: rgba(255,255,255,0.6);
+  padding: 8px 16px;
+  margin-bottom: 16px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 50px;
+  backdrop-filter: blur(4px);
   flex-wrap: wrap;
 }
-.breadcrumb a { color: var(--trip-gray); }
-.breadcrumb a:hover { color: var(--trip-blue); }
-.breadcrumb .sep { color: #ccc; }
-.breadcrumb .current { color: var(--trip-blue); font-weight: 600; }
+.breadcrumb a { color: rgba(255,255,255,0.7); text-decoration: none; }
+.breadcrumb a:hover { color: #fff; }
+.breadcrumb .sep { color: rgba(255,255,255,0.3); font-size: 0.7rem; }
+.breadcrumb .current { color: #fff; font-weight: 600; }
 
 /* ---- Page Hero ---- */
 .page-hero {
